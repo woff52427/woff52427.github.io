@@ -7,10 +7,17 @@
     $("#tit").fadeIn(); 
     $("#tit2").fadeIn();
     $("#body").hide();
-    $("#body2").hide();
-    $("#body").slideDown(3000);
-    $("#body2").slideDown(3000);
-   });
+    $("#body2").hide(); 
+    
+    $("#tit").click(function(){
+      $("#body").slideDown(3000);
+    });
+    
+     $("#tit2").click(function(){
+      $("#body2").slideDown(3000);
+    });
+    
+    });
   </script>
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <title>
